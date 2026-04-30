@@ -1,5 +1,4 @@
-var doc = document
-const botao = doc.getElementById("modoClaro/Escuro")
+const botao = document.getElementById("modoClaro/Escuro")
 
 let claro = true;
 botao.addEventListener("click", function() {
